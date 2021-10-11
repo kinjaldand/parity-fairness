@@ -3,7 +3,7 @@ import pandas as pd
 from fairlearn.reductions import GridSearch
 from fairlearn.reductions import ExponentiatedGradient
 from fairlearn.reductions import DemographicParity, ErrorRate
-from fairlearn.widget import FairlearnDashboard
+#from fairlearn.widget import FairlearnDashboard
 
 def gridSearch(model, X_train, Y_train, A_train, grid_size):
     """
