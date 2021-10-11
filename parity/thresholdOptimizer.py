@@ -1,6 +1,6 @@
 # Fairlearn algorithms and utils
 from fairlearn.postprocessing import ThresholdOptimizer
-from fairlearn.widget import FairlearnDashboard
+#from fairlearn.widget import FairlearnDashboard
 
 def thresholdOptimizer(X_train, Y_train, A_train, model, constraint):
     """
