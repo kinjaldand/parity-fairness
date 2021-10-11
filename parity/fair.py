@@ -21,7 +21,7 @@ from aif360.metrics import BinaryLabelDatasetMetric, ClassificationMetric
 from aif360.algorithms.preprocessing import LFR, Reweighing, DisparateImpactRemover
 from aif360.algorithms.inprocessing import AdversarialDebiasing, PrejudiceRemover
 from aif360.algorithms.postprocessing import CalibratedEqOddsPostprocessing, EqOddsPostprocessing, RejectOptionClassification
-from fairlearn.widget import FairlearnDashboard
+#from fairlearn.widget import FairlearnDashboard
 
 from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, roc_curve, auc
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
